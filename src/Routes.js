@@ -8,7 +8,7 @@ export default props => (
     <Router>
         <Stack key="root">
             <Scene key="login" component={login} title="Login" hideNavBar/>
-            <Scene key="home" component={home} title="Home" />
+            <Scene key="home" component={home} title="Tela Inicial" />
         </Stack>
     </Router>
 );
