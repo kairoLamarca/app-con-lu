@@ -7,7 +7,7 @@ import home from './components/Home';
 export default props => (
     <Router>
         <Stack key="root">
-            <Scene key="login" component={login} title="Login" />
+            <Scene key="login" component={login} title="Login" hideNavBar/>
             <Scene key="home" component={home} title="Home" />
         </Stack>
     </Router>
