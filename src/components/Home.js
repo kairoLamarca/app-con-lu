@@ -6,10 +6,7 @@ class home extends Component {
         return (
             <View style={{ flex: 1 }}>
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                    <Text>
-                        Tela Inicial
-                    </Text>
-                    <Text>
+                    <Text style={{fontSize: 25}}>
                         Escolha uma das opções
                     </Text>
                 </View>
@@ -24,7 +21,7 @@ class home extends Component {
                             </TouchableHighlight>
                             <Text>
                                 FAQ
-                        </Text>
+                            </Text>
                         </View>
                         <View style={{ backgroundColor: '#e25335', justifyContent: 'center', alignItems: 'center', margin: 15, height: 125, width: 125 }}>
                             <TouchableHighlight
@@ -33,9 +30,9 @@ class home extends Component {
                             >
                                 <Image source={require('../imgs/boleto.png')} />
                             </TouchableHighlight>
-                            <Text>
+                            <Text style={{color: '#fff'}}>
                                 2ª VIA DO BOLETO
-                        </Text>
+                            </Text>
                         </View>
                     </View>
                     <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
@@ -46,9 +43,9 @@ class home extends Component {
                             >
                                 <Image source={require('../imgs/video.png')} />
                             </TouchableHighlight>
-                            <Text>
+                            <Text style={{color: '#fff'}}>
                                 ASSEMBLÉIA
-                        </Text>
+                            </Text>
                         </View>
                         <View style={{ backgroundColor: '#33c3dd', justifyContent: 'center', alignItems: 'center', margin: 15, height: 125, width: 125 }}>
                             <TouchableHighlight
@@ -57,9 +54,9 @@ class home extends Component {
                             >
                                 <Image source={require('../imgs/debito.png')} />
                             </TouchableHighlight>
-                            <Text>
+                            <Text style={{color: '#fff'}}>
                                 DÉBITO
-                        </Text>
+                            </Text>
                         </View>
                     </View>
                     <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
@@ -70,9 +67,9 @@ class home extends Component {
                             >
                                 <Image source={require('../imgs/atendimento.png')} />
                             </TouchableHighlight>
-                            <Text>
+                            <Text style={{color: '#fff'}}>
                                 ATENDIMENTO
-                        </Text>
+                            </Text>
                         </View>
                         <View style={{ backgroundColor: '#72b98d', justifyContent: 'center', alignItems: 'center', margin: 15, height: 125, width: 125 }}>
                             <TouchableHighlight
@@ -81,9 +78,9 @@ class home extends Component {
                             >
                                 <Image source={require('../imgs/email.png')} />
                             </TouchableHighlight>
-                            <Text>
+                            <Text style={{color: '#fff'}}>
                                 E-MAIL
-                        </Text>
+                            </Text>
                         </View>
                     </View>
                 </View>
